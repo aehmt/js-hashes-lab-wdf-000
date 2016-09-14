@@ -16,7 +16,10 @@ function updateIngredient(recipe, name, quantity) {
 }
 
 function readRecipe(recipe) {
+  // var arr = []
   for (var key in recipe) {
+    // arr.push("this recipe calls for " + recipe[key] + " of " + key);
     console.log("this recipe calls for " + recipe[key] + " of " + key);
   } 
+  // return arr;
 }
